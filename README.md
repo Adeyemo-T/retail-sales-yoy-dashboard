@@ -1,3 +1,4 @@
+![Image](https://github.com/user-attachments/assets/bc92ce87-7f08-4145-aec0-d55a0eb6077a)
 ## Project Background
 
 A retail client requires a direct comparative analysis to measure the growth, profitability, and operational efficiency between the current year (2024) and the prior year (2023). The primary goal is to determine the effectiveness of strategic changes by quantifying the **Year-over-Year (YOY)** variance across all critical performance indicators.
@@ -21,7 +22,7 @@ Insights and recommendations are provided on the following key areas:
 
 The analysis was built entirely within a **single Excel workbook**, using a standard Excel Data Table as the source for all PivotTables and calculations. No data was loaded into the Power Pivot Data Model — all work was completed using native **Excel functionality**.
 
-
+![Image](https://github.com/user-attachments/assets/fd982a59-11b7-47ea-9dfe-afdfd643ccd6)
 #### Data Model (conceptual Star Schema approach)
 Although the data was not added to Excel’s Data Model, the workbook follows a conceptual star-schema layout to support clean YOY analysis:
 
@@ -39,7 +40,7 @@ The data cleaning and preparation process utilized native Excel tools, Pivot Tab
 
 * **Time Intelligence (Calculated Measures):** All core KPIs, including **30% VS LY Sales**, **24% VS LY Quantity**, and **11% VS LY Cost**, were derived using **Calculated Measures** within Excel (or a helper table).
 * **Aggregation:** **Pivot Tables** were used to efficiently summarize the transactional data set into the visible components of the dashboard, such as the **Regional Sales Distribution** and the **Monthly Revenue Trend**.
-
+![Image](https://github.com/user-attachments/assets/769efda8-7608-47e0-8a2f-7909cdc11931)
 ## Executive Summary (Store Sales Performance)
 
 The business is experiencing explosive growth, with **Sales up 30%** and **Quantity up 24%** versus the last year (LY). Total **Sales reached $475.6K** and **Profit hit $411.6K**. However, the efficiency of this growth is challenged by a **11% increase in Cost VS LY**, suggesting procurement or operational expenses are rising too quickly. The growth is geographically unbalanced, relying heavily on the **West and South regions**. Strategic focus must immediately pivot to controlling the cost growth rate and replicating the success of the high-growth **Monitor and Mouse** categories in other regions.
@@ -51,7 +52,7 @@ The business is experiencing explosive growth, with **Sales up 30%** and **Quant
 * **Profitability Risk:** The **11% increase in Cost VS LY** is outpacing the Quantity growth, indicating the efficiency of sales is declining.
 * **Monthly Volatility:** The Monthly Revenue Trend shows that **2024 is outperforming 2023** in most months, confirming that the growth is sustained, though monthly variance remains high.
 
-![YOY Performance KPIs and Monthly Trend]
+![Image](https://github.com/user-attachments/assets/56b973f3-8a78-486a-a045-a214272f4891)
 
 
 
@@ -60,7 +61,7 @@ The business is experiencing explosive growth, with **Sales up 30%** and **Quant
 * **Regional Reliance:** The **West and South regions** are the primary drivers of YOY growth, confirming that these areas contain the most optimized sales and logistics processes.
 * **Underperforming Regions:** The **North and East regions** are lagging, indicating a need for strategic intervention and resource allocation to replicate the West/South success model.
 
-![Regional Sales Distribution Chart]
+![Image](https://github.com/user-attachments/assets/254e72b5-de4b-42d1-a086-d4d6e32f3b7f)
 
 
 
@@ -69,7 +70,7 @@ The business is experiencing explosive growth, with **Sales up 30%** and **Quant
 * **Growth Drivers:** The **Monitor** and **Mouse** product categories show the largest YOY sales increase, confirming they are the most effective product lines in the current market.
 * **Stagnant Categories:** Categories like **Headphones** and **Keyboard** show less aggressive growth, suggesting the need for revised marketing or competitive pricing strategies to reignite sales.
 
-![Product-wise Sales Breakdown Chart]
+![Image](https://github.com/user-attachments/assets/69994a34-5052-4f24-81f1-7a63f8120ec7)
 
 ##  Business Recommendations
 
