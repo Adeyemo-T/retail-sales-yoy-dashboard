@@ -18,13 +18,21 @@ Insights and recommendations are provided on the following key areas:
 ##  Data Structure & Initial Checks
 
 #### Data Overview
-The analysis was built entirely within a **single Excel workbook**, demonstrating expertise in leveraging Excel's advanced data handling capabilities for complex comparative analysis. All raw transactional data was loaded into an Excel **Data Table**.
 
-#### Data Model (Implicit Star Schema)
-The structure utilizes an **implicit Star Schema** model within Excel's framework:
+The analysis was built entirely within a **single Excel workbook**, using a standard Excel Data Table as the source for all PivotTables and calculations. No data was loaded into the Power Pivot Data Model — all work was completed using native **Excel functionality**.
 
-* **Central Table:** The primary Data Table (containing fields for Sales, Profit, Cost, Quantity, Region, Product, and Date) acts as the central **Fact Table**.
-* **Time Dimension:** The **Date field** allows for the creation of calculated columns to derive the necessary time attributes (Year, Month) required for advanced YOY comparison.
+
+#### Data Model (conceptual Star Schema approach)
+Although the data was not added to Excel’s Data Model, the workbook follows a conceptual star-schema layout to support clean YOY analysis:
+
+**Fact Table:**
+A single transactional table containing fields for Sales, Profit, Cost, Quantity, Region, Product, and Date.
+
+**Date Dimension:**
+A helper Date Table was derived directly in Excel (Year, Month, Month Name) to enable accurate time-intelligence comparisons such as YOY % change.
+
+This structure maintains data modeling discipline while remaining fully within **Excel’s standard table environment.**
+
 
 #### Data Cleaning and Preparation
 The data cleaning and preparation process utilized native Excel tools, Pivot Tables, and **Calculated Measures** to derive the core dashboard insights.
